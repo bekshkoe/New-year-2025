@@ -214,7 +214,7 @@ video {
     font-weight: 600;
     text-align: center;
     color: #ffffff;
-    background: linear-gradient(90deg, #322045, #162236);
+    background-color: darkred;
     padding: 15px 30px;
     border-radius: 10px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
@@ -302,3 +302,16 @@ video {
     margin-right: 10px;
 }
 
+.jetistikter-spisok {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.jetistikter-spisok h2 {
+    color: #fff;
+}
+.jet {
+    color: #fff;
+    text-align: center;
+    gap: 30px;
+}
